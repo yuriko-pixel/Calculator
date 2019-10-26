@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html labg="en"> 
+<head> 
+  <meta chrset="utf-8" /> 
+  <title>calculator</title> 
+  <link rel="stylesheet" href="styles.css" />
+</head> 
+<body>
+  <div class="calc-b-body" style="margin-top: 50px" id="input">
+    <div class="calc-body" style="margin-top: 80px">
+      <div class="row">
+        <div class="display" id="display"></div>
+      </div>
+      <div class="mid-container">
+        <div class="row">
+            <button type ="button" class="box-3" id="seven" onclick="myC();">AC</button>
+            <button type ="button" class="box-1" id="mul" onclick="myCal('/');">÷</button>
+          </div>
+        <div class="row">
+          <button type ="button" class="box-1" id="seven" onclick="setNum(7);">7</button>
+          <button type ="button" class="box-1" id="eight" onclick="setNum(8);">8</button>
+          <button type ="button" class="box-1" id="nine" onclick="setNum(9);">9</button>
+          <button type ="button" class="box-1" id="mul" onclick="myCal('*');">x</button>
+        </div>
+        <div class="row">
+          <button type ="button" class="box-1" id="four" onclick="setNum(4);">4</button>
+          <button type ="button" class="box-1" id="five" onclick="setNum(5);">5</button>
+          <button type ="button" class=box-1 id="six" onclick="setNum(6);">6</button>
+          <button type ="button" class=box-1 id="minus" onclick="myCal('-');">-</button>
+        </div>
+        <div class="row">
+          <button type ="button" class=box-1 id="one" onclick="setNum(1);">1</button>
+          <button type ="button" class=box-1 id="two" onclick="setNum(2);">2</button>
+          <button type ="button" class=box-1 id="three" onclick="setNum(3);">3</button>
+          <button type ="button" class=box-1 id="plus" onclick="myCal('+');">+</button>
+        </div>
+        <div class="row">
+          <button type ="button" class="box-2" id="zero" onclick="setNum(0);">0</button>
+          <button type ="button" class="box-1" id="per" onclick="myDot();">.</button>
+          <button type ="button" class="box-1" id="equal" onclick="myCal('=');">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script> 
+</body> 
+</html>

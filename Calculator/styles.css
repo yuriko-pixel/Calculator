@@ -1,0 +1,91 @@
+@charset "UTF-8"; 
+
+body {
+}
+
+.calc-b-body {
+  margin: 0 auto;
+  width: 500px;
+  height: 600px;
+  border: solid 1px green;
+  background: #a3d6cc;
+  box-shadow: 0 5px 10px 1px black;
+}
+
+.calc-body {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  width: 450px;
+  height: 500px;
+  border: solid 1px #f2d58a;
+  box-shadow: 0 5px 5px 1px black;
+  background: #fff3b8;
+}
+
+.row {
+  height: 70px;
+  /* width: 290px; */
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.centre {
+  margin: 0 auto;
+}
+
+.box-1 {
+  width: 80px;
+  height: 75px;
+  background: #26499d;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 5px 10px 1px black;
+  border-radius: 3px;
+}
+
+.box-2 {
+  width: 164px;
+  height: 75px;
+  background: #26499d;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 5px 10px 1px black;
+  border-radius: 3px;
+}
+
+.box-3 {
+  width: 250px;
+  height: 75px;
+  background: #26499d;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 5px 10px 1px black;
+  border-radius: 3px;
+}
+
+.mid-container {
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.display {
+  background: lightgray;
+  margin-top: 20px;
+  width: 350px;
+  height:70px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 1px black;
+  border: solid 2px gray;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.button {
+  padding: 0;
+}
